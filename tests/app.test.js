@@ -16,7 +16,7 @@ describe("User API", () => {
 
         test("should return users with id and name", async () => {
             const response = await request(app)
-                .get("/api/users");
+                .get("/api/userse");
 
             expect(response.statusCode).toBe(200);
 
